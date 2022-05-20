@@ -7,20 +7,43 @@ import Foundation
 import Swift
 import UIKit
 import _Concurrency
+public protocol SlotPickerDelegate : AnyObject {
+  func slotPicker(didSelectSlots slots: [Foundation.Date])
+}
+public protocol SlotPickerDataSource : AnyObject {
+  func initialController() -> UIKit.UIViewController
+}
+extension SlotPicker.SlotPickerDelegate {
+  public func slotPicker(didSelectSlots slots: Foundation.Date)
+}
 public struct Config {
   public static var shared: SlotPicker.Config
-  public static var SlotDiffrenceMultiple: Swift.Int
-  public static var MinimumSlotDuration: Swift.Int
-  public static var MaximumSlotDuration: Swift.Int
-  public static var canSelectMultipleSlots: Swift.Bool
+  public var SlotDiffrenceMultiple: Swift.Int
+  public var MinimumSlotDuration: Swift.Int
+  public var MaximumSlotDuration: Swift.Int
+  public var slotInterval: Swift.Int
+  public var canSelectMultipleSlots: Swift.Bool
+  public var showSelectionController: Swift.Bool
+  public var defautStartDate: Foundation.Date
+  public var defaultEndDate: Foundation.Date
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class SelectSlotDurationVC : UIKit.UIViewController {
-  @objc dynamic public init()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+public class SlotPickerView {
+  weak public var delegate: SlotPicker.SlotPickerDelegate?
+  weak public var dataSource: SlotPicker.SlotPickerDataSource?
+  convenience public init()
+  required public init(configuration: SlotPicker.Config)
+  required public init?(coder aDecoder: Foundation.NSCoder)
+  public func showPicker(from viewController: UIKit.UIViewController)
   @objc deinit
 }
-extension SlotPicker.SelectSlotDurationVC : UIKit.UIPickerViewDelegate, UIKit.UIPickerViewDataSource {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfComponents(in pickerView: UIKit.UIPickerView) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func pickerView(_ pickerView: UIKit.UIPickerView, numberOfRowsInComponent component: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func pickerView(_ pickerView: UIKit.UIPickerView, titleForRow row: Swift.Int, forComponent component: Swift.Int) -> Swift.String?
+extension Foundation.Date {
+  public func dateByAddingDays(component: Foundation.Calendar.Component, count: Swift.Int) -> Foundation.Date
+  public var startOfDay: Foundation.Date {
+    get
+  }
+  public var endOfDay: Foundation.Date {
+    get
+  }
+  public func changeTimeInDate(hour: Swift.Int, min: Swift.Int) -> Foundation.Date?
+  public func isSameDay(with: Foundation.Date) -> Swift.Bool
 }

@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/SlotPicker-Swift.h</key>
 		<data>
-		SGTmZqcbCLkHj0zG3huXD2MheGY=
+		GEvPkyBKNyTY0xVuUtYyHG7ewWI=
 		</data>
 		<key>Headers/SlotPicker.h</key>
 		<data>
@@ -30,27 +30,27 @@
 		</data>
 		<key>Modules/SlotPicker.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		kzB5fEdkSnc1YUCowtB1G6qwOos=
+		Z688L/aQCxvfAaj9kfUphObgBvA=
 		</data>
 		<key>Modules/SlotPicker.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		HKELqqCmLAek7e312rOGCn7KKj4=
+		cTqFdrvwvtF/yC+0r7DNOqdlhJo=
 		</data>
 		<key>Modules/SlotPicker.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		iWsdHapmaPnTb3F1axabH+poYLE=
+		Aard47LdS0rIvl3h3MEh0xSOCZk=
 		</data>
 		<key>Modules/SlotPicker.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		kzB5fEdkSnc1YUCowtB1G6qwOos=
+		Z688L/aQCxvfAaj9kfUphObgBvA=
 		</data>
 		<key>Modules/SlotPicker.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		HKELqqCmLAek7e312rOGCn7KKj4=
+		cTqFdrvwvtF/yC+0r7DNOqdlhJo=
 		</data>
 		<key>Modules/SlotPicker.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		iWsdHapmaPnTb3F1axabH+poYLE=
+		Aard47LdS0rIvl3h3MEh0xSOCZk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -92,7 +92,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j9sSd9ajD6o6L1KO/OP++XJCTUWPzZXuNGmx/e47kdA=
+			DtXOkIn8BSoxPKHwba7pqHvgovoyydFBvdWd2AsbM5g=
 			</data>
 		</dict>
 		<key>Headers/SlotPicker.h</key>
@@ -106,42 +106,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vPW3R3lRHjL494npCgqdUB7I2fUmfJfSAY0MsssmUIg=
+			6/x06jwkF8GF05bz4zuVpyc7eow9bANU4g0yG6buWXg=
 			</data>
 		</dict>
 		<key>Modules/SlotPicker.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YENv9YmEEmq2NNimvHuPxGCcKKsofz2Clm6a2AJiAmU=
+			E+QWY0xlVsrLcDcbAeZmlEucwlCXGszK6RX2S4BXyHE=
 			</data>
 		</dict>
 		<key>Modules/SlotPicker.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IoHVEMSGcs1avnJI3Jqhro4/McktABOsgaYk+OtFtIg=
+			F2oOmvp0feRVIdsPbWHa2L63KnxTudH0lV/DccLK724=
 			</data>
 		</dict>
 		<key>Modules/SlotPicker.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vPW3R3lRHjL494npCgqdUB7I2fUmfJfSAY0MsssmUIg=
+			6/x06jwkF8GF05bz4zuVpyc7eow9bANU4g0yG6buWXg=
 			</data>
 		</dict>
 		<key>Modules/SlotPicker.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YENv9YmEEmq2NNimvHuPxGCcKKsofz2Clm6a2AJiAmU=
+			E+QWY0xlVsrLcDcbAeZmlEucwlCXGszK6RX2S4BXyHE=
 			</data>
 		</dict>
 		<key>Modules/SlotPicker.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IoHVEMSGcs1avnJI3Jqhro4/McktABOsgaYk+OtFtIg=
+			F2oOmvp0feRVIdsPbWHa2L63KnxTudH0lV/DccLK724=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
