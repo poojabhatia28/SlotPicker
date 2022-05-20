@@ -1,0 +1,11 @@
+framework module SlotPicker {
+  umbrella header "SlotPicker.h"
+
+  export *
+  module * { export * }
+}
+
+module SlotPicker.Swift {
+    header "SlotPicker-Swift.h"
+    requires objc
+}
