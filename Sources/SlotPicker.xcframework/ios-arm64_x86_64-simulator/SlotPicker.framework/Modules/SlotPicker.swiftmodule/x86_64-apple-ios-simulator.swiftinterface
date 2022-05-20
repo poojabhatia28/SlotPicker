@@ -8,13 +8,27 @@ import Swift
 import UIKit
 import _Concurrency
 public protocol SlotPickerDelegate : AnyObject {
-  func slotPicker(didSelectSlots slots: [Foundation.Date])
+  func slotPicker(didSelectSlots slots: [SlotPicker.Slot])
 }
 public protocol SlotPickerDataSource : AnyObject {
   func initialController() -> UIKit.UIViewController
+  func preSelectedSlots() -> [SlotPicker.Slot]
 }
 extension SlotPicker.SlotPickerDelegate {
   public func slotPicker(didSelectSlots slots: Foundation.Date)
+}
+@_hasMissingDesignatedInitializers public class Slot : Swift.Hashable {
+  public var startsAt: Foundation.Date
+  public var endsAt: Foundation.Date {
+    get
+  }
+  public var duration: Swift.Int
+  public static func == (lhs: SlotPicker.Slot, rhs: SlotPicker.Slot) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  @objc deinit
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public struct Config {
   public static var shared: SlotPicker.Config

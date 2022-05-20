@@ -6,15 +6,15 @@
 	<dict>
 		<key>Resources/BookSlotVC.nib</key>
 		<data>
-		ZdpZNmpzQh1xkxDdFRQSzttUujk=
+		RMqkqSi4QzVGzjVLM+KFRm78cQM=
 		</data>
 		<key>Resources/DateCVC.nib</key>
 		<data>
-		m/fONRn9+EQtHN8Ee7jlJ7Ha0nw=
+		TUABqYKFVqGSVqcF+G1XNo+GFPc=
 		</data>
 		<key>Resources/HeaderView.nib</key>
 		<data>
-		cUmopS0EWflzKRdvBe0kr9rxlO8=
+		wXn9/xY/MkuC1q2FM7VgXWpWhuI=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Resources/SelectSlotDurationVC.nib</key>
 		<data>
-		jFs/H+7Lty1WJhDjqKxQiPV9V7Y=
+		XQAUC6ojz3GwgzyH2GEv6lxOlEw=
 		</data>
 		<key>Resources/SlotsVC.nib</key>
 		<data>
-		v0nou/5J7vUAehfxzsVidIK5Ew8=
+		s0bIqZifNRi2W2CgP8QbRWCDqQI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -56,14 +56,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hd8bXmQHC5dWWkk4TrgFMaFfTdUtQEoQnskRa5CBiFM=
+			bU27P44OEzdNAt7vnEXqh8y/edzOIwyf3KzA2no138I=
 			</data>
 		</dict>
 		<key>Modules/SlotPicker.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IMYdgHGNR1catL5eUQRxp9q3LN7iNWBzjY1ZcT8J1G4=
+			qSdxirkEQ1U9MGR264xZjruPJOF3SSa1AekU394ye+0=
 			</data>
 		</dict>
 		<key>Modules/SlotPicker.swiftmodule/arm64.swiftdoc</key>
@@ -77,14 +77,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hd8bXmQHC5dWWkk4TrgFMaFfTdUtQEoQnskRa5CBiFM=
+			bU27P44OEzdNAt7vnEXqh8y/edzOIwyf3KzA2no138I=
 			</data>
 		</dict>
 		<key>Modules/SlotPicker.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IMYdgHGNR1catL5eUQRxp9q3LN7iNWBzjY1ZcT8J1G4=
+			qSdxirkEQ1U9MGR264xZjruPJOF3SSa1AekU394ye+0=
 			</data>
 		</dict>
 		<key>Modules/SlotPicker.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HzM9lD1QIuAvm8k7sQ8QP+o0wsmctrnGCiO+0jjDE/k=
+			YQpIODKcMPxBpYdl/AApMznFaFidWS3Q1FbUIuwY1Pg=
 			</data>
 		</dict>
 		<key>Modules/SlotPicker.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GiCskqFV7GvwjGE7BVxt6vFuTPzBRwDqYVJkEgj7zSY=
+			VrzSXIezCTgcJ7ZPDLPY5aBfV0DMX0GGDGeG9DHb86U=
 			</data>
 		</dict>
 		<key>Modules/SlotPicker.swiftmodule/x86_64.swiftdoc</key>
@@ -119,14 +119,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HzM9lD1QIuAvm8k7sQ8QP+o0wsmctrnGCiO+0jjDE/k=
+			YQpIODKcMPxBpYdl/AApMznFaFidWS3Q1FbUIuwY1Pg=
 			</data>
 		</dict>
 		<key>Modules/SlotPicker.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GiCskqFV7GvwjGE7BVxt6vFuTPzBRwDqYVJkEgj7zSY=
+			VrzSXIezCTgcJ7ZPDLPY5aBfV0DMX0GGDGeG9DHb86U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -140,21 +140,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fIhx8JmTLOtpdIi8YYpxdXEp/HfVssNymLu01q73/Vs=
+			pAHacS1BwAL9KwW9sInyqwLIqED1ou+UnpRl4J1Fcqs=
 			</data>
 		</dict>
 		<key>Resources/DateCVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nE91mLULqjCghwoSX0mIpr1kbLSKNdEMUvx7aNbfttQ=
+			CKqaV0UqH8LKmjMXtExmYDHRQujKpRF/x5/oJlaA28Q=
 			</data>
 		</dict>
 		<key>Resources/HeaderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OoC0AUaOsEVY3IPo9B5h/EaT5BG7tuLQI5hS+5DcYbw=
+			O5/iogv3c4VVYJJFygF98mTk2u1ZcYMCckOLtXEeKow=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
@@ -168,14 +168,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lhGCX4sIjvCg453JP8NVRu07eyPB82lhu89OepEewww=
+			6NCzWHf3PxGga2WzZ37BH82fhOnsGXmcavyQoRibMmQ=
 			</data>
 		</dict>
 		<key>Resources/SlotsVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VdeUrj7Lig/g44eJyEsKyOzs6za6GuleetdxcGs+vpg=
+			D2W5whlEvyPVBple9l97j2bC2bwXBvZ3eZK9+b0NvB0=
 			</data>
 		</dict>
 	</dict>
